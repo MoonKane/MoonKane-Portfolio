@@ -1,6 +1,12 @@
 :root {
 
-    --color-default: #000;
-    --color-darkTheme: #fff;
+    --text-color: #fff;
+    --background-color: #000;
+    --background-color-for-link: rgb(0, 204, 255);
+    --background-color-for-logo: linear-gradient(to right, blue, aqua, green);
+
+    --container-width: 1920px;
+    --container-max-width: 95%;
 
 }
+

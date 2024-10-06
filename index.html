@@ -6,9 +6,44 @@
     <link href="styles/main.css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
     
-    <a>Hello World!</a>
+    <header class="header">
+        <section class="header-container container">
+
+            <div class="header-logo logo">
+                <div class="header-logo-icon icon"></div>
+                <span class="header-logo-text text">MoonKane</span>
+            </div>
+
+            <nav class="header-nav">
+                <a class="heder-nav-link nav-link" href="#">Main</a>
+                <a class="heder-nav-link nav-link" href="#">About me</a>
+            </nav>
+            
+            <div class="header-checkboxes-block">
+                
+                <label class="header-checkbox-label color-theme-label" for="color-theme-checkbox">
+                    <input type="checkbox" class="checkbox" id="color-theme-checkbox">
+                </label>
+
+                <label class="header-checkbox-label language-label" for="language-checkbox">
+                    <span id="language-checkbox-text">En</span>
+                    <input type="checkbox" class="checkbox" id="language-checkbox">
+                </label>
+
+                <!-- <select name="LanguageToggle" id="ToggleLanguage">
+                    <option value="ru"></option>
+                    <option value="en"></option>
+                </select>
+                <select name="ColorTheme" id="color-theme">
+                    <option value="light"></option>
+                    <option value="dark"></option>
+                </select> -->
+            </div>
+
+        </section>
+    </header>
 
     <script src="scripts/main.js" type="text/javascript"></script>
 </body>

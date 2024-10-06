@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('../data/fonts/PermanentMarker/PermanentMarker-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProtestStrike';
+    src: url('../data/fonts/ProtestStrike/ProtestStrike-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../data/fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
