@@ -1,0 +1,16 @@
+@import url(variable.css);
+@import url(font.css);
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: #3345fa;
+    cursor: pointer;
+    font-weight: bold;
+}
